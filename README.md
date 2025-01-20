@@ -291,7 +291,7 @@ Output: 'John'
 
 **Misol 1:**
 
-Python
+```Python
 Kirish: data = [
   {
     'name': 'John', 
@@ -303,10 +303,10 @@ Kirish: data = [
   }
 ]
 Chiqish: 'John'
-
+```
 **Misol 2:**
 
-Python
+```Python
 Kirish: data = [
   {
     'name': 'John', 
@@ -326,7 +326,7 @@ Kirish: data = [
   }
 ]
 Chiqish: 'Mary'
-
+```
 **Cheklovlar:**
 
   - 0 <= len(data) <= 10^5
@@ -337,7 +337,7 @@ Chiqish: 'Mary'
 
 **Misol 1:**
 
-Python
+```Python
 Kirish: data = [
   {
     'name': 'John', 
@@ -350,10 +350,10 @@ Kirish: data = [
 ]
 name = "John"
 Chiqish: 'USA'
-
+```
 **Misol 2:**
 
-Python
+```Python
 Kirish: data = [
   {
     'name': 'John', 
@@ -382,7 +382,7 @@ Kirish: data = [
 ]
 name = "Henry"
 Chiqish: 'UK'
-
+```
 **Cheklovlar:**
 
   - 0 <= len(data) <= 10^5
@@ -394,7 +394,7 @@ Chiqish: 'UK'
 
 **Misol 1:**
 
-Python
+```Python
 Kirish: data = [
   {
     'name': 'John', 
@@ -416,10 +416,10 @@ Kirish: data = [
 min_age = 18
 max_age = 25
 Chiqish: ['John','Ban']
-
+```
 **Misol 2:**
 
-Python
+```Python
 Kirish: data = [
   {
     'name': 'Anny', 
@@ -433,7 +433,7 @@ Kirish: data = [
 min_age = 20
 max_age = 30
 Chiqish: ['Anny','Mary']
-
+```
 **Cheklovlar:**
 
   - 0 <= len(data) <= 10^5
@@ -446,7 +446,7 @@ Chiqish: ['Anny','Mary']
 
 **Misol 1:**
 
-Python
+```Python
 Kirish: data = [
   {
     'name': 'John', 
@@ -458,11 +458,11 @@ Kirish: data = [
   }
 ]
 age = 27
-Chiqish: ['John']
+```Chiqish: ['John']
 
 **Misol 2:**
 
-Python
+```Python
 Kirish: data = [
   {
     'name': 'John', 
@@ -483,7 +483,7 @@ Kirish: data = [
 ]
 age = 32
 Chiqish: ['Ann','Mary']
-
+```
 **Cheklovlar:**
 
   - 0 <= len(data) <= 10^5
@@ -495,7 +495,7 @@ Chiqish: ['Ann','Mary']
 
 **Misol 1:**
 
-Python
+```Python
 Kirish: data = [
   {
     'name': 'John', 
@@ -508,10 +508,10 @@ Kirish: data = [
 ]
 country = "USA"
 Chiqish: ["John"]
-
+```
 **Misol 2:**
 
-Python
+```Python
 Kirish: data = [
   {
     'name': 'John', 
@@ -540,7 +540,7 @@ Kirish: data = [
 ]
 country = 'UK'
 Chiqish: ["Mary","Henry"]
-
+```
 **Cheklovlar:**
 
   - 0 <= len(data) <= 10^5
@@ -552,7 +552,7 @@ Chiqish: ["Mary","Henry"]
 
 **Misol 1:**
 
-Python
+```Python
 Kirish: data = [
   {
     'name': 'John', 
@@ -564,10 +564,10 @@ Kirish: data = [
   }
 ]
 Chiqish: 69
-
+```
 **Misol 2:**
 
-Python
+```Python
 Kirish: data = [
   {
     'name': 'John', 
@@ -587,7 +587,7 @@ Kirish: data = [
   }
 ]
 Chiqish: 87
-
+```
 **Cheklovlar:**
 
   - 0 <= len(data) <= 10^5
@@ -598,7 +598,7 @@ Chiqish: 87
 
 **Misol 1:**
 
-Python
+```Python
 Kirish: data = {
     'a': 1, 
     'b': 2, 
@@ -618,7 +618,7 @@ Kirish: data = {
     7: 3
   }
 Chiqish: 39.5
-
+```
 **Cheklovlar:**
 
   - 0 <= len(data) <= 10^5
@@ -629,17 +629,17 @@ Chiqish: 39.5
   
 **Misol 1:**
 
-Python
+```Python
 Kirish: data = {
     'a': 1, 
     'b': 2, 
     'c': 3
   }
 Chiqish: 2
-
+```
 **Misol 2:**
 
-Python
+```Python
 Kirish: data = {
     1: 22, 
     2: 3.5, 
@@ -649,7 +649,7 @@ Kirish: data = {
     7: 3
   }
 Chiqish: 24
-
+```
 
 **Cheklovlar:**
 
@@ -661,17 +661,17 @@ Chiqish: 24
 
 **Misol 1:**
 
-Python
+```Python
 Kirish: data = {
     'a': 1, 
     'b' : 2.5, 
     'c': 3.0
   }
 Chiqish: 5.5
-
+```
 **Misol 2:**
 
-Python
+```Python
 Kirish: data = {
     1: 22.4, 
     2: 3.5, 
@@ -681,7 +681,7 @@ Kirish: data = {
     7: 3
   }
 Chiqish: 33.5
-
+```
 
 **Cheklovlar:**
 
